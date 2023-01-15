@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joke Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Joke Generator</h1>
+    </header>
+    <main>
+      <div class="hero">
+        <p id="joke">Joke Loading...</p>
+        <button id="new-joke" onclick="newJoke()">
+          <img src="./icons/NewJoke.svg" alt="" />
+        </button>
+      </div>
+    </main>
+    <footer>
+      <p class="using">Using the <a href="https://jokeapi.dev/" target="_blank">JokeAPI</a></p>
+    </footer>
+  </body>
+</html>
